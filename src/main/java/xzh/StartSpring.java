@@ -12,8 +12,13 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 public class StartSpring {
 
+    /**
+     * 启动类
+     * @param args
+     */
     public static void main(String[] args){
         SpringApplication.run(StartSpring.class,args);
         log.info("启动成功");
+        log.info("你好");
     }
 }
